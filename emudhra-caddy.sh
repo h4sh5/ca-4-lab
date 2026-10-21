@@ -21,7 +21,7 @@ set -euo pipefail
 
 HERE=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 STORE=${STORE:-/etc/ssl/certs/ca-certificates.crt}
-CA=dv-g3b; PORT=8443; ADDRESS=0.0.0.0; MODE=foreground; DAYS=${DAYS:-30}
+CA=ov-g3c; PORT=8443; ADDRESS=0.0.0.0; MODE=foreground; DAYS=${DAYS:-30}
 UPSTREAM=http://localhost:8000
 CADDYFILE=
 CADDY=${CADDY:-caddy}

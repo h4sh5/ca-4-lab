@@ -37,12 +37,12 @@ KEY_BYTES = 48
 # ------------------------------------------------------- the leaked d values
 # slug: (d, certificate file, human name)  -- from the public announcement
 WEAK_KEYS = {
+    "ov-g3c":   (4,   "certs/em-ov-tls-ca-g3c.pem",  "EM OV TLS CA - G3C"),
     "dv-g3b":   (156, "certs/em-dv-tls-ca-g3b.pem",  "EM DV TLS CA - G3B"),
     "dv-g3c":   (230, "certs/em-dv-tls-ca-g3c.pem",  "EM DV TLS CA - G3C"),
     "ev-g3b":   (115, "certs/em-ev-tls-ca-g3b.pem",  "EM EV TLS CA - G3B"),
     "ev-g3c":   (56,  "certs/em-ev-tls-ca-g3c.pem",  "EM EV TLS CA - G3C"),
     "ov-g3b":   (155, "certs/em-ov-tls-ca-g3b.pem",  "EM OV TLS CA - G3B"),
-    "ov-g3c":   (4,   "certs/em-ov-tls-ca-g3c.pem",  "EM OV TLS CA - G3C"),
     "ov-cs-g3b": (66, "certs/em-ov-cs-ca-g3b.pem",   "EM OV CS CA - G3B"),
     "ov-cs-g3c": (237, "certs/em-ov-cs-ca-g3c.pem",  "EM OV CS CA - G3C"),
 }
